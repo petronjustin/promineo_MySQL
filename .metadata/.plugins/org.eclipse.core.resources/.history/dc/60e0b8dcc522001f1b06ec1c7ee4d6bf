@@ -43,6 +43,7 @@ public class ProjectsApp {
 					break;
 				case 1:
 					createProject();
+					
 					break;
 				case 2:
 					listProjects();
