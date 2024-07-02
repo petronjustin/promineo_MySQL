@@ -47,3 +47,13 @@ CREATE TABLE step (
 	PRIMARY KEY (step_id),
 	FOREIGN KEY (project_id) REFERENCES project (project_id) ON DELETE CASCADE
 );
+
+
+INSERT INTO project (project_name, estimated_hours)
+VALUES ('Guitar Solo', 3);
+
+INSERT INTO project (project_name, estimated_hours)
+VALUES ('Drum Solo', 1);
+
+INSERT INTO project (project_name, estimated_hours)
+VALUES ('Dance Solo', 5);
